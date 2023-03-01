@@ -1,0 +1,7 @@
+{
+  "price": "Price",
+  "term": "Term",
+  "creditScore": "Credit Score",
+  "interestRate": "Interest Rate, %",
+  "downPayment": "Down Payment, $"
+}

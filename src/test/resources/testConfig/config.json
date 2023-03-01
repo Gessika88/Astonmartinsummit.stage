@@ -1,0 +1,6 @@
+{
+  "browserName": "chrome",
+  "url": "https://astonmartinsummit.stage.runmylease.com/",
+  "waitDuration": "12",
+  "options": "start-maximized"
+}
