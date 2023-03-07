@@ -1,18 +1,19 @@
 package com.runmylease.astonmartinsummitstagetest.test.vdp.todaysPrice;
 
+import com.runmylease.astonmartinsummitstage.base.BaseForm;
 import com.runmylease.astonmartinsummitstage.util.BrowserUtil;
 import com.runmylease.astonmartinsummitstage.util.ConfigManager;
 import com.runmylease.astonmartinsummitstage.util.CustomLogger;
 import com.runmylease.astonmartinsummitstagetest.page.HomePage;
-import com.runmylease.astonmartinsummitstagetest.page.vdp.CustomizePaymentPopup;
 import com.runmylease.astonmartinsummitstagetest.page.vdp.TodaysPricePopup;
+import com.runmylease.astonmartinsummitstagetest.test.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TodaysPriceAllRequiredFieldsTest {
+public class TodaysPriceAllRequiredFieldsTest extends BaseTest {
     @Test
-    public void testCustomizePayment() {
-        CustomLogger.info("Customize Payment test starts.");
+    public void testTodaysPrice() {
+        CustomLogger.info("Today's price test starts.");
         HomePage homePage = new HomePage();
         BrowserUtil.goToURL(ConfigManager.getURL());
         CustomLogger.info("Step 1. Assert if the main page is opened.");

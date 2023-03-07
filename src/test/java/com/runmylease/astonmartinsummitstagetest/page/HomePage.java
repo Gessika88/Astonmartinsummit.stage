@@ -35,7 +35,7 @@ public class HomePage extends BaseForm {
             = new Button (By.xpath("//*[@id='__next']/header/div[2]/div/nav/div[2]/a/span"), "preOwnedVehiclesBtn");
 
     private static Button allPreOwnedVehiclesBtn
-            = new Button (By.xpath("//div[contains(@class,'header-desktop_submenuContainer__c3ulv')]"), "preOwnedVehiclesBtn");
+            = new Button (By.xpath("//*[@id='__next']/header/div[2]/div/nav/div[7]/div/ul/li[1]/a"), "preOwnedVehiclesBtn");
 
 
 

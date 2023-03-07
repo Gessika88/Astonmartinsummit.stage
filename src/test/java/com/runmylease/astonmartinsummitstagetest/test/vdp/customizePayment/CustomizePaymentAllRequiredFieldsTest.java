@@ -33,12 +33,12 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
                 .openAllPreOwnedVehiclesPage();
         CustomizePaymentPopup customizePaymentPopup = new CustomizePaymentPopup();
 
-        Assert.assertTrue(customizePaymentPopup.isPreOwnedVehiclePageOpen(), "PRE-OWNED VEHICLES page isn't opened");
+        Assert.assertTrue(customizePaymentPopup.isPreOwnedVehiclePageOpened(), "PRE-OWNED VEHICLES page isn't opened");
 
         CustomLogger.info("Step 3. Assert if VDP is opened.");
         customizePaymentPopup.openVDPFirstCar();
 
-        Assert.assertTrue(customizePaymentPopup.isVDPFistCarOpen(), "VDP isn't opened");
+        Assert.assertTrue(customizePaymentPopup.isVDPFistCarOpened(), "VDP isn't opened");
 
         CustomLogger.info("Step 4. Assert if popup with fields is opened.");
         customizePaymentPopup.openCustomizePayment();
@@ -62,11 +62,11 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
         customizePaymentPopup.inputZipCode(user);
         customizePaymentPopup.openPreferredContactDropDown();
         customizePaymentPopup.chooseCustomizePaymentEmail();
-        customizePaymentPopup.openUnlockCodeWindow();
-        customizePaymentPopup.isUnlockCodeWindowCodeDisplayed();
+        customizePaymentPopup.openPersonalUnlockCodeSentWindow();
+        String fieldCode = customizePaymentPopup.personalUnlockCodeSentWindowCheckField();
 
-        Assert.assertTrue(customizePaymentPopup.isUnlockCodeWindowOpened(), "Unlock Code Window isn't opened.");
-
+        Assert.assertTrue(customizePaymentPopup.isPersonalUnlockCodeSentWindowOpened(), "Unlock Code Window isn't opened.");
+        Assert.assertEquals(fieldCode, "Code *");
 
         CustomLogger.info("Step 6. Assert if google page with field Email or phone is opened");
         GoogleAuthorization googleAuthorization = new GoogleAuthorization();
@@ -95,16 +95,17 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
         googleAuthorization.inputToFieldSearchInMail("no-reply@runmylease.com");
         googleAuthorization.searchMails();
         String codeVerification = googleAuthorization.getTextFromList();
+        googleAuthorization.selectUnreadMail();
+        googleAuthorization.pushMarkAsReadMails();
 
         Assert.assertTrue(NumberUtils.isParsable(codeVerification), "It's not a code verification");
 
 
         CustomLogger.info("Step 10. Assert if Unlock Code Window is opened.");
-        FrameUtil.switchToWindow(By.xpath("/html/body/div[8]/div"));
+        FrameUtil.switchToWindow(By.xpath("/html/body/div[5]/div"));
         FrameUtil.switchToFrame(By.xpath("//iframe[@name = 'iframe']"));
-        customizePaymentPopup.isUnlockCodeWindowCodeDisplayed();
 
-        Assert.assertTrue(customizePaymentPopup.isUnlockCodeWindowOpened(), "Unlock Code Window isn't opened.");
+        Assert.assertTrue(customizePaymentPopup.isPersonalUnlockCodeSentWindowOpened(), "Unlock Code Window isn't opened.");
 
 
         CustomLogger.info("Step 11. Assert if popup Customize your payment with fields is opened.");

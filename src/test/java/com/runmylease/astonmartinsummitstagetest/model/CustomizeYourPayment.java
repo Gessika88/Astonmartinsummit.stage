@@ -21,5 +21,6 @@ public class CustomizeYourPayment {
     private String interestRate;
     private String downPayment;
 
+
 }
 

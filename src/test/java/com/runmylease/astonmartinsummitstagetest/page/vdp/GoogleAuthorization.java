@@ -21,8 +21,8 @@ public class GoogleAuthorization extends BaseForm {
     private static Label googleEmailsPageLbL
             = new Label(By.xpath("//*[@id=':kj']/div/div[2]/span/a"), "googleEmailsPageLbL");
 
-    private static Label googleEmailsElemLbL
-            = new Label(By.xpath("//span[contains(text(),'Verification code:')]"), "googleEmailsElemLbL");
+//    private static Label googleEmailsElemLbL
+//            = new Label(By.xpath("//span[contains(text(),'Verification code:')]"), "googleEmailsElemLbL");
 
 
 
@@ -39,6 +39,12 @@ public class GoogleAuthorization extends BaseForm {
     private static Button fieldSearchBtN =
             new Button(By.xpath("//form[@id='aso_search_form_anchor']/button[4]"), "fieldSearchBtN");
 
+    private static Button selectCheckBoxUnreadMailBtN =
+            new Button(By.xpath("//*[@id=':m3']/div[1]/span"), "selectCheckBoxUnreadMailBtN");
+
+    private static Button pushMarkAsReadBtN =
+            new Button(By.xpath("//*[@id=':4']/div[2]/div[2]/div[1]/div/div/div[3]/div[1]/div"), "pushMarkAsReadBtN");
+
 
 
 
@@ -47,7 +53,7 @@ public class GoogleAuthorization extends BaseForm {
 
     private TextBox googleAuthorizationPasswordTextBox = new TextBox(By.xpath("//*[@id='password']/div[1]/div/div[1]/input"), "Password input field");
 
-    private TextBox fieldSearchInMailTextBox = new TextBox(By.xpath("//input[@class='gb_if aJh'][1]"), "Search input field");
+    private TextBox fieldSearchInMailTextBox = new TextBox(By.xpath("//*[@id='gs_lc50']/input[1]"), "Search input field");
 
 
 
@@ -79,7 +85,8 @@ public class GoogleAuthorization extends BaseForm {
         return googleAuthorizationPasswordPageLbL.isDisplayed();
     }
 
-    public void inputPassword(String password) {
+    public void inputPassword(String password) throws InterruptedException {
+        Thread.sleep(2000);
         googleAuthorizationPasswordTextBox.sendText(password);
     }
 
@@ -106,13 +113,23 @@ public class GoogleAuthorization extends BaseForm {
         fieldSearchBtN.click();
     }
 
-    public String getTextFromList() {
+    public String getTextFromList()  {
         String result = "";
-        List<WebElement> elements = googleEmailsElemLbL.findElements();
+        List <WebElement> elements = DriverSingleton.getDriver().findElements(By.xpath("//span[contains(text(),'Verification code:')]"));
         for(int i = 0; i < elements.size(); i++){
             result = elements.get(0).getText().replaceAll("\\D+", "");
         }
-        return result;
+       return result;
     }
+
+    public void selectUnreadMail() throws InterruptedException {
+        Thread.sleep(2000);
+        selectCheckBoxUnreadMailBtN.click();
+    }
+
+    public void pushMarkAsReadMails() {
+        pushMarkAsReadBtN.click();
+    }
+
 }
 

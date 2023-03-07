@@ -15,30 +15,30 @@ public class UserManager {
         return user;
     }
 
-    public static String getFirstName(){
-        CustomLogger.info("UserManager.getFirstName()");
-        return getUser().getFirstName();
-    }
-
-    public static String getLastName(){
-        CustomLogger.info("UserManager.getSecondName()");
-        return getUser().getLastName();
-    }
-
-    public static String getPhone(){
-        CustomLogger.info("UserManager.getPhone()");
-        return getUser().getPhone();
-    }
-
-    public static String getEmail(){
-        CustomLogger.info("UserManager.getEmail()");
-        return getUser().getEmailAddress();
-    }
-
-    public static String getZipCode(){
-        CustomLogger.info("UserManager.getZipCode()");
-        return getUser().getZipCode();
-    }
+//    public static String getFirstName(){
+//        CustomLogger.info("UserManager.getFirstName()");
+//        return getUser().getFirstName();
+//    }
+//
+//    public static String getLastName(){
+//        CustomLogger.info("UserManager.getSecondName()");
+//        return getUser().getLastName();
+//    }
+//
+//    public static String getPhone(){
+//        CustomLogger.info("UserManager.getPhone()");
+//        return getUser().getPhone();
+//    }
+//
+//    public static String getEmail(){
+//        CustomLogger.info("UserManager.getEmail()");
+//        return getUser().getEmailAddress();
+//    }
+//
+//    public static String getZipCode(){
+//        CustomLogger.info("UserManager.getZipCode()");
+//        return getUser().getZipCode();
+//    }
 
 
 }
