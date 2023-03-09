@@ -2,13 +2,13 @@ package com.runmylease.astonmartinsummitstagetest.test.vdp.customizePayment;
 
 import com.runmylease.astonmartinsummitstage.util.*;
 import com.runmylease.astonmartinsummitstagetest.manager.CustomizeYourPaymentManager2;
-import com.runmylease.astonmartinsummitstagetest.model.User;
+import com.runmylease.astonmartinsummitstagetest.user.CustomizeYourPayment;
 import com.runmylease.astonmartinsummitstagetest.page.HomePage;
 import com.runmylease.astonmartinsummitstagetest.page.vdp.CustomizePaymentPopup;
 import com.runmylease.astonmartinsummitstagetest.page.vdp.GoogleAuthorization;
 import com.runmylease.astonmartinsummitstagetest.test.BaseTest;
 import com.runmylease.astonmartinsummitstagetest.manager.CustomizeYourPaymentManager;
-import com.runmylease.astonmartinsummitstagetest.util.UserManager;
+import com.runmylease.astonmartinsummitstagetest.util.UserCustomizeYourPaymentManager;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -45,7 +45,7 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
         FrameUtil.switchToFrame(By.xpath("//iframe[@name = 'iframe']"));
 
 
-        List actualContactInfo = customizePaymentPopup.getContactInfoList();
+        List actualContactInfo = customizePaymentPopup.getFieldsNameList();
         List expectedContactInfo = CustomizeYourPaymentManager.getCustomizeYourPaymentExpectedList();
 
         for (int i = 0; i < actualContactInfo.size() ; i++) {
@@ -53,8 +53,8 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
                     "Popup must not contain the expected result: " + actualContactInfo.get(i));
         }
 
-        CustomLogger.info("Step 5. Assert if popup is filled and window with field Code is opened.");
-        User user = UserManager.getUser();
+        CustomLogger.info("Step 5. Assert if popup is filled and window with field Code * is opened.");
+        CustomizeYourPayment user = UserCustomizeYourPaymentManager.getUser();
 
         customizePaymentPopup.inputFirstName(user);
         customizePaymentPopup.inputLastName(user);
@@ -70,7 +70,7 @@ public class CustomizePaymentAllRequiredFieldsTest extends BaseTest {
 
         CustomLogger.info("Step 6. Assert if google page with field Email or phone is opened");
         GoogleAuthorization googleAuthorization = new GoogleAuthorization();
-        googleAuthorization.openNewTab();
+        googleAuthorization.openNewTabGoogle();
         FrameUtil.switchToWindow(By.xpath("//div[contains(@class,'iNstf')]"));
 
         Assert.assertTrue(googleAuthorization.isGoogleAuthorizationPageOpened(), "Google page with field Email or phone is not opened");

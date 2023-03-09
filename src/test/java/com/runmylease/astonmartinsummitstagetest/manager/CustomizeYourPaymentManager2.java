@@ -1,7 +1,7 @@
 package com.runmylease.astonmartinsummitstagetest.manager;
 
 import com.runmylease.astonmartinsummitstage.util.CustomLogger;
-import com.runmylease.astonmartinsummitstagetest.model.CustomizeYourPayment;
+import com.runmylease.astonmartinsummitstagetest.user.CustomizeYourPayment;
 import com.runmylease.astonmartinsummitstagetest.parser.CustomizeYourPaymentParser2;
 
 import java.util.ArrayList;

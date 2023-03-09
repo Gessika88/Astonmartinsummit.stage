@@ -8,7 +8,6 @@ import com.runmylease.astonmartinsummitstage.element.TextBox;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 
 public class GoogleAuthorization extends BaseForm {
@@ -20,9 +19,6 @@ public class GoogleAuthorization extends BaseForm {
 
     private static Label googleEmailsPageLbL
             = new Label(By.xpath("//*[@id=':kj']/div/div[2]/span/a"), "googleEmailsPageLbL");
-
-//    private static Label googleEmailsElemLbL
-//            = new Label(By.xpath("//span[contains(text(),'Verification code:')]"), "googleEmailsElemLbL");
 
 
 
@@ -48,7 +44,6 @@ public class GoogleAuthorization extends BaseForm {
 
 
 
-
     private TextBox googleAuthorizationEmailTextBox = new TextBox(By.id("identifierId"), "Email input field");
 
     private TextBox googleAuthorizationPasswordTextBox = new TextBox(By.xpath("//*[@id='password']/div[1]/div/div[1]/input"), "Password input field");
@@ -60,11 +55,8 @@ public class GoogleAuthorization extends BaseForm {
 
 
 
-
-
-    public void openNewTab() {
+    public void openNewTabGoogle() {
         ((JavascriptExecutor) DriverSingleton.getDriver()).executeScript("window.open('https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&ifkv=AWnogHdwx7nqLRt4AB-V9ckjMDjFW7WNcfGJDGTCjHKaldKJWfW7jY_-252VgXT1HmnIi6rIBkhqhA&flowName=GlifWebSignIn&flowEntry=ServiceLogin')");
-
     }
 
     public boolean isGoogleAuthorizationPageOpened() {
@@ -123,7 +115,7 @@ public class GoogleAuthorization extends BaseForm {
     }
 
     public void selectUnreadMail() throws InterruptedException {
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         selectCheckBoxUnreadMailBtN.click();
     }
 

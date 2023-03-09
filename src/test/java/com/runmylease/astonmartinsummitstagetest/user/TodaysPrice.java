@@ -1,4 +1,4 @@
-package com.runmylease.astonmartinsummitstagetest.model;
+package com.runmylease.astonmartinsummitstagetest.user;
 
 import lombok.*;
 
@@ -8,17 +8,14 @@ import lombok.*;
 @Setter
 @EqualsAndHashCode
 @ToString
-public class User {
+public class TodaysPrice {
     private String firstName;
     private String lastName;
     private String preferredContact;
     private String phone;
     private String emailAddress;
-    private String zipCode;
+    private String comments;
 
-    private String price;
-    private String term;
-    private String creditScore;
-    private String interestRate;
-    private String downPayment;
+
 }
+

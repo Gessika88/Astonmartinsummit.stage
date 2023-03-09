@@ -1,4 +1,4 @@
-package com.runmylease.astonmartinsummitstagetest.model;
+package com.runmylease.astonmartinsummitstagetest.user;
 
 import lombok.*;
 
@@ -20,6 +20,7 @@ public class CustomizeYourPayment {
     private String creditScore;
     private String interestRate;
     private String downPayment;
+
 
 
 }

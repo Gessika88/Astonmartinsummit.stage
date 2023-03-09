@@ -1,0 +1,863 @@
+15:57:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - acknowledgmentTextPageLbL :isDisplayed()
+15:57:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 13. Assert if popup is closed.
+15:57:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+15:57:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :click()
+15:57:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :findElement(By locator)
+15:57:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+16:06:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+16:06:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+16:06:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+16:06:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+16:06:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+16:06:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+16:06:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+16:06:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+16:06:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+16:06:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+16:06:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+16:06:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+16:06:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :click()
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :findElement(By locator)
+16:06:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+16:06:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+16:06:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+16:06:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+16:06:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+16:06:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+16:06:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+16:06:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+16:06:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+16:06:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+16:06:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+16:06:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+16:06:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+16:06:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+16:06:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+16:06:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+16:06:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+16:06:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:50 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+16:06:50 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+16:06:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+16:06:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+16:06:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+16:06:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+16:06:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+16:06:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+16:06:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 11. Assert if popup Customize your payment with fields is opened.
+16:06:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field.sendText(): 3310
+16:06:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field :findElement(By locator)
+16:06:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :click()
+16:06:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :findElement(By locator)
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentPageLbL :isDisplayed()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElemLbL :findElement(By locator)
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElem2LbL :findElement(By locator)
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getPrice()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment2, String path)
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getTerm()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getCreditScore()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getInterestRate()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getDownPayment()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 12. Assert if popup with acknowledgment text is opened.
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :click()
+16:06:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :findElement(By locator)
+16:07:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - acknowledgmentTextPageLbL :isDisplayed()
+16:07:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 13. Assert if popup is closed.
+16:07:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :click()
+16:07:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :findElement(By locator)
+16:07:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+16:07:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+16:07:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+16:07:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+16:07:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+16:07:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+16:07:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+16:07:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+16:07:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+16:07:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+16:07:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+16:07:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+16:07:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+16:07:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :click()
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :findElement(By locator)
+16:07:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+16:07:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+16:07:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+16:07:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+16:07:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+16:07:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+16:07:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+16:07:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+16:07:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+16:07:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+16:07:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+16:07:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+16:07:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+16:07:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+16:07:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+16:08:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+16:08:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+16:08:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+16:08:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+16:08:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 11. Assert if popup Customize your payment with fields is opened.
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field.sendText(): 8528
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field :findElement(By locator)
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :click()
+16:08:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :findElement(By locator)
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentPageLbL :isDisplayed()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElemLbL :findElement(By locator)
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElem2LbL :findElement(By locator)
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getPrice()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment2, String path)
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getTerm()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getCreditScore()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getInterestRate()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getDownPayment()
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 12. Assert if popup with acknowledgment text is opened.
+16:08:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :click()
+16:08:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :findElement(By locator)
+16:08:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - acknowledgmentTextPageLbL :isDisplayed()
+16:08:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 13. Assert if popup is closed.
+16:08:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+16:08:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :click()
+16:08:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :findElement(By locator)
+16:08:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:47:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:47:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:47:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:47:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:47:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:47:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:47:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:47:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:47:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:47:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:47:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:47:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:47:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:47:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:47:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:47:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:47:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:47:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:47:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:47:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :click()
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentBtn :findElement(By locator)
+19:47:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:47:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:47:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:47:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:47:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:47:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:47:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+19:47:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+19:47:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:48:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:48:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:48:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:48:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:48:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:48:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:48:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:48:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:48:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:48:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:15 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:48:15 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:48:17 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:48:17 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:48:18 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+19:48:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowCodeLbL :isDisplayed()
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - unlockCodeWindowLbL :isDisplayed()
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 11. Assert if popup Customize your payment with fields is opened.
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field.sendText(): 6327
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Code verification field :findElement(By locator)
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :click()
+19:48:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - calculatePaymentBtn :findElement(By locator)
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentPageLbL :isDisplayed()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElemLbL :findElement(By locator)
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizeYourPaymentElem2LbL :findElement(By locator)
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getPrice()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment2, String path)
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getTerm()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getCreditScore()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getInterestRate()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager2.getDownPayment()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 12. Assert if popup with acknowledgment text is opened.
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :click()
+19:48:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - lockInThisPaymentBtn :findElement(By locator)
+19:48:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - acknowledgmentTextPageLbL :isDisplayed()
+19:48:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 13. Assert if popup is closed.
+19:48:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:48:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :click()
+19:48:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - doneBtn :findElement(By locator)
+19:48:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:11:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:11:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:11:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:11:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:11:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:11:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:11:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:11:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:11:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:11:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:11:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:11:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:11:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:11:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:11:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:11:38 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+19:11:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+19:11:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:11:41 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:11:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:11:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:11:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:11:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :getText()
+19:11:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :findElement(By locator)
+19:11:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowLbL :isDisplayed()
+19:11:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:11:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:11:47 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:11:49 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:11:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:11:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:11:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:11:51 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:11:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:11:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:11:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:11:52 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:12:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:12:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:12:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:12:08 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:12:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:12:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:12:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:12:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:12:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:12:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:12:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+19:12:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+19:12:11 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:12:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:12:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:13:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:13:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:13:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:13:53 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:13:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:13:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:13:56 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:13:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:13:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:13:59 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:14:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:14:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:14:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:14:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+19:14:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:14:03 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:14:03 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:14:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:14:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:14:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:14:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :getText()
+19:14:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :findElement(By locator)
+19:14:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowLbL :isDisplayed()
+19:14:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:14:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:14:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:14:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:14:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:20 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:14:20 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:14:22 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:14:22 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:14:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+19:14:24 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:14:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:14:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:20:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:20:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:20:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:20:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:21:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:21:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:21:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:21:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:03 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:21:03 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:21:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+19:21:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+19:21:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:21:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:21:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:21:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:21:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :getText()
+19:21:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :findElement(By locator)
+19:21:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowLbL :isDisplayed()
+19:21:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:21:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:21:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:21:14 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:21:16 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:21:17 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:25 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:21:25 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:21:27 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:21:27 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:21:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:21:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+19:21:31 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:21:33 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:21:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:23:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:23:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:23:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:23:54 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:23:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:23:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:23:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:24:00 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:24:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+19:24:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+19:24:02 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:24:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:24:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:24:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:24:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:24:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:24:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :getText()
+19:24:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :findElement(By locator)
+19:24:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowLbL :isDisplayed()
+19:24:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:24:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:24:09 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:24:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:24:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:24:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:24:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:24:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:24:12 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:24:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:24:13 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:24:19 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:24:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:24:21 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:24:22 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:24:22 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:24:22 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:24:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:24:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:24:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 10. Assert if Unlock Code Window is opened.
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: /html/body/div[8]/div
+19:24:26 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:24:28 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:24:43 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+19:25:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+19:25:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+19:25:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+19:25:30 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+19:25:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+19:25:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+19:25:32 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+19:25:34 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+19:25:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+19:25:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+19:25:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+19:25:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+19:25:36 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+19:25:37 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getFirstName()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - parseCustomizeYourPaymentDataFromFileToUserObject(CustomizeYourPayment CustomizeYourPayment, String path)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getSecondName()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPreferredContact()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getPhone()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getEmail()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - CustomizeYourPaymentManager.getZipCode()
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 5. Assert if popup is filled and window with field Code is opened.
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - UserParser.parseUserDataFromFileToUserObject(User user, String path)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field.sendText(): Maria
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - First name input field :findElement(By locator)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field.sendText(): Kosach
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Last name input field :findElement(By locator)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field.sendText(): mkosach@runmylease.com
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email Address input field :findElement(By locator)
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field.sendText(): 3546
+19:25:39 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Zip Code Address input field :findElement(By locator)
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :click()
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preferredContactDropDownBtn :findElement(By locator)
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :click()
+19:25:40 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailBtn :findElement(By locator)
+19:25:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :click()
+19:25:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - nextBtn :findElement(By locator)
+19:25:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :getText()
+19:25:42 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowFieldCodeLbL :findElement(By locator)
+19:25:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - personalUnlockCodeSentWindowLbL :isDisplayed()
+19:25:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 6. Assert if google page with field Email or phone is opened
+19:25:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToWindow(): By.xpath: //div[contains(@class,'iNstf')]
+19:25:44 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationEmailPageLbL :isDisplayed()
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 7. Assert if field Email or phone is filled and page with field Enter your password is opened
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field.sendText(): mkosach@runmylease.com
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Email input field :findElement(By locator)
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :click()
+19:25:45 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - emailNextBtn :findElement(By locator)
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleAuthorizationPasswordPageLbL :isDisplayed()
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 8. Assert if field Password is filled and page with emails is opened
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field.sendText(): Kristian03102018
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Password input field :findElement(By locator)
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :click()
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - passwordNextBtn :findElement(By locator)
+19:25:48 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :click()
+19:25:55 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pauseMobileNotificationsBtN :findElement(By locator)
+19:25:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - googleEmailsPageLbL :isDisplayed()
+19:25:57 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 9. Assert if code verification is copied.
+19:25:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field.sendText(): no-reply@runmylease.com
+19:25:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Search input field :findElement(By locator)
+19:25:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:25:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :click()
+19:25:58 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - fieldSearchBtN :findElement(By locator)
+19:27:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:27:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :click()
+19:27:23 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - selectCheckBoxUnreadMailBtN :findElement(By locator)
+19:27:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+19:27:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :click()
+19:27:35 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - pushMarkAsReadBtN :findElement(By locator)
+19:28:29 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.closeBrowser()
+00:01:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BaseTest.browserSetUp()
+00:01:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getBrowserName()
+00:01:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigParser.parseConfigDataFromFileToConfigObject(Config config, String path)
+00:01:46 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getOptions()
+00:02:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Customize Payment test starts.
+00:02:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getURL()
+00:02:01 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - BrowserUtil.goToURL(): https://astonmartinsummit.stage.runmylease.com/
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 1. Assert if the main page is opened.
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger -  getFormName()
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isPageOpened()
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - astonMartinLogo :isDisplayed()
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 2. Assert if the  PRE-OWNED VEHICLES page is opened.
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConfigManager.getWaitDurationInSeconds()
+00:02:04 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+00:02:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :click()
+00:02:05 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclesBtn :findElement(By locator)
+00:02:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - preOwnedVehiclePageLbL :isDisplayed()
+00:02:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 3. Assert if VDP is opened.
+00:02:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+00:02:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :click()
+00:02:06 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - VDPFirstCarBtn :findElement(By locator)
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - priceDetailsLbL :isDisplayed()
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - Step 4. Assert if popup with fields is opened.
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - ConditionalWait.waitToBeClickableByLocator()
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :click()
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentWindowBtn :findElement(By locator)
+00:02:07 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - FrameUtil.switchToFrame(): By.xpath: //iframe[@name = 'iframe']
+00:02:10 INFO  com.runmylease.astonmartinsummitstage.util.CustomLogger - customizePaymentElemLbL :findElement(By locator)

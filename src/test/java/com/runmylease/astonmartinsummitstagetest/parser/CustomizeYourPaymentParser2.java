@@ -1,8 +1,7 @@
 package com.runmylease.astonmartinsummitstagetest.parser;
 
 import com.runmylease.astonmartinsummitstage.util.CustomLogger;
-import com.runmylease.astonmartinsummitstagetest.model.CustomizeYourPayment;
-import com.runmylease.astonmartinsummitstagetest.model.User;
+import com.runmylease.astonmartinsummitstagetest.user.CustomizeYourPayment;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

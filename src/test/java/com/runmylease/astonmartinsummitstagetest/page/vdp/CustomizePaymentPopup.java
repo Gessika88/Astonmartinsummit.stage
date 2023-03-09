@@ -4,7 +4,7 @@ import com.runmylease.astonmartinsummitstage.base.BaseForm;
 import com.runmylease.astonmartinsummitstage.element.Button;
 import com.runmylease.astonmartinsummitstage.element.Label;
 import com.runmylease.astonmartinsummitstage.element.TextBox;
-import com.runmylease.astonmartinsummitstagetest.model.User;
+import com.runmylease.astonmartinsummitstagetest.user.CustomizeYourPayment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
@@ -106,26 +106,26 @@ public class CustomizePaymentPopup extends BaseForm {
         return this;
     }
 
-    public List getContactInfoList() throws InterruptedException {
+    public List getFieldsNameList() throws InterruptedException {
         Thread.sleep(2000);
-        List<WebElement> contactInfoWebElementList = customizePaymentElemLbL.findElements(); //получаю список вэб-элементов
-        List<String> contactInfoList = new ArrayList<>(); //создание массива для добавления туда этих элементов
-        for (WebElement element : contactInfoWebElementList){
-            contactInfoList.add(element.getText());
+        List<WebElement> fieldsNameWebElementList = customizePaymentElemLbL.findElements(); //получаю список вэб-элементов
+        List<String> fieldsNameList = new ArrayList<>(); //создание массива для добавления туда этих элементов
+        for (WebElement element : fieldsNameWebElementList){
+            fieldsNameList.add(element.getText());
         }
-        return contactInfoList;
+        return fieldsNameList;
     }
 
-    public void inputFirstName(User user) {
+    public void inputFirstName(CustomizeYourPayment user) {
         customizePaymentFirstNameTextBox.sendText(user.getFirstName());
     }
-    public void inputLastName(User user) {
+    public void inputLastName(CustomizeYourPayment user) {
         customizePaymentLastNameTextBox.sendText(user.getLastName());
     }
-    public void inputEmailAddress(User user) {
+    public void inputEmailAddress(CustomizeYourPayment user) {
         customizePaymentEmailAddressTextBox.sendText(user.getEmailAddress());
     }
-    public void inputZipCode(User user) {
+    public void inputZipCode(CustomizeYourPayment user) {
         customizePaymentZipCodeTextBox.sendText(user.getZipCode());
     }
 
@@ -139,7 +139,7 @@ public class CustomizePaymentPopup extends BaseForm {
     }
 
     public CustomizePaymentPopup openPersonalUnlockCodeSentWindow() throws InterruptedException {
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         nextBtn.click();
         return this;
     }
